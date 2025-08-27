@@ -10151,3 +10151,100 @@ details[open] summary::before {
 	font-size: 50px;
 	font-weight:900
 }
+
+.testimonial .testimonial-details {
+    position: relative;
+    padding: 30px;
+    border: 2px solid #0fb9b1;
+    border-radius: 8px;
+    margin-bottom: 14px;
+	color: #000;
+}
+
+.testimonial .testimonial-item:nth-child(2) .testimonial-details {
+    border: 2px solid #e84b3a;
+}
+
+.testimonial .testimonial-item:nth-child(3) .testimonial-details {
+    border: 2px solid #fc7f0c;
+}
+
+.testimonial .testimonial-item:nth-child(4) .testimonial-details {
+    border: 2px solid #0fb9b1;
+}
+
+.testimonial .testimonial-item:nth-child(5) .testimonial-details {
+    border: 2px solid #e84b3a;
+}
+
+.testimonial .testimonial-item:nth-child(6) .testimonial-details {
+    border: 2px solid #fc7f0c;
+}
+
+.testimonial .testimonial-details:before {
+    font-family: FontAwesome;
+    content: "\f10d";
+    position: absolute;
+    top: -5px;
+    left: -2px;
+    font-size: 22px;
+    background: #fff;
+    color: #0fb9b1;
+    line-height: 24px;
+    padding-right: 10px;
+    padding-bottom: 7px;
+}
+
+.testimonial .testimonial-item:nth-child(2) .testimonial-details:before {
+    color: #e84b3a;
+}
+
+.testimonial .testimonial-item:nth-child(3) .testimonial-details:before {
+    color: #fc7f0c;
+}
+
+.testimonial .testimonial-item:nth-child(4) .testimonial-details:before {
+    color: #0fb9b1;
+}
+
+.testimonial .testimonial-item:nth-child(5) .testimonial-details:before {
+    color: #e84b3a;
+}
+
+.testimonial .testimonial-item:nth-child(6) .testimonial-details:before {
+    color: #fc7f0c;
+}
+
+.testimonial .testimonial-details:after {
+    font-family: FontAwesome;
+    content: "\f10e";
+    position: absolute;
+    bottom: -5px;
+    right: -2px;
+    font-size: 22px;
+    background: #fff;
+    color: #0fb9b1;
+    line-height: 24px;
+    padding-left: 10px;
+    padding-top: 7px;
+}
+
+.testimonial .testimonial-item:nth-child(2) .testimonial-details:after {
+    color: #e84b3a;
+}
+
+.testimonial .testimonial-item:nth-child(3) .testimonial-details:after {
+    color: #fc7f0c;
+}
+
+.testimonial .testimonial-item:nth-child(4) .testimonial-details:after {
+    color: #0fb9b1;
+}
+
+.testimonial .testimonial-item:nth-child(5) .testimonial-details:after {
+    color: #e84b3a;
+}
+
+.testimonial .testimonial-item:nth-child(6) .testimonial-details:after {
+    color: #fc7f0c;
+}
